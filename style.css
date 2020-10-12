@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  color: hsl(300, 43%, 22%);
+  /* position: absolute; */
+  
+
+}
+
+
+
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h3 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.main-container {
+  /* position: relative; */
+  /* padding-left: auto;
+  padding-right: auto; */
+  margin: auto;
+  margin-top: 50px;
+  /* background-color: #555555; */
+  background: url(/images/bg-pattern-top-desktop.svg) ;
+  background: url(/images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
+  max-width: 1300px;
+  padding: 100px;
+  box-shadow: 5px 10px 18px #888888;;
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-2 {
+  flex-basis: 45%;
+  padding-bottom: 50px;
+
+  /* max-width: 45; */
+}
+
+.rating-box {
+  background: hsl(300, 24%, 96%);
+  margin-bottom: 10px;
+  margin-left: 50px;
+  border-radius: 15px;
+  padding: 20px;
+  
+  width: 400px;
+}
+
+.rating p {
+  display: inline;
+  margin-left: 40px;
+  font-weight: 700;
+}
+
+#rating-1 {
+  margin: 10px auto 10px 0
+}
+
+#rating-2 {
+  margin: 10px auto 10px auto
+}
+
+#rating-3 {
+  margin: 10px 0 10px auto
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  max-width: 350px;
+  border-radius: 20px;
+}
+.card-row {
+  margin: 20px 30px;
+  display: flex;
+  
+}
+
+.card img {
+  border-radius: 50%;
+  height: 60px;
+}
+
+.card-col {
+  margin: auto 0 auto 15px;
+}
+
+.card h4 {
+  color: hsl(0, 0%, 100%);
+  margin-left: 20px;
+  font-size: 20px;
+
+}
+
+.card h5 {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  margin-left: 20px;
+
+}
+.card p {
+  color: white;
+  margin: 30px;
+}
+.attribution {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .main-container {
+    max-width: 600px;
+    margin: 0;
+    padding: 50px;
+    background: url(/images/bg-pattern-top-mobile.svg);
+    background: url(/images/bg-pattern-bottom-mobile.svg);
+  }
+  .h1 {
+    font-size: 30px;
+  }
+
+  .h3 {
+    font-size: 25px;
+  }
+  .row {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+
+  .rating-box {
+    width: 200px;
+  }
+
+  .rating-1, .rating-2, .rating-3 {
+    width: 80%;
+  }
+
+  .rating-box {
+    width: 80vw;
+    padding: a
+    ;
+  }
+  .rating p {
+    display: block;
+  }
+
+  .card {
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .card-col {
+    text-align: left;
+  }
+
+
+  .card h4 {
+    font-size: 18px;
+  }
+  .card h5 {
+    font-size: 18px;
+  }
+
+  .card p {
+    text-align: left;
+  }
+}
