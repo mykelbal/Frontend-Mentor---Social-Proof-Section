@@ -149,6 +149,13 @@ h3 {
     flex-basis: 45%;
   }
 
+  #card2 {
+    transform: translateY(0px);
+  }
+  
+  #card3 {
+    transform: translateY(0px);
+
   
 }
 
@@ -219,5 +226,5 @@ h3 {
   .card p {
     text-align: left;
   }
-  
+
 }
